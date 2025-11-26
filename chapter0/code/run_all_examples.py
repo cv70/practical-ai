@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-第一章代码示例运行脚本
+第零章代码示例运行脚本
 ====================
 
-此脚本用于依次运行第一章的所有代码示例，方便快速验证和学习。
+此脚本用于依次运行第零章的所有代码示例，方便快速验证和学习。
 """
 
 import subprocess
@@ -46,16 +46,12 @@ def run_python_script(script_name):
 
 def main():
     """主函数"""
-    print("第一章 Python 基础与数据处理 - 代码示例运行")
+    print("第零章 人工智能概述 - 代码示例运行")
     print("=" * 60)
     
     # 定义要运行的脚本列表
     scripts = [
-        "python_basics.py",
-        "numpy_example.py",
-        "pandas_example.py",
-        "matplotlib_example.py",
-        "student_grade_analysis_project.py",
+        "python_hello_world.py",
     ]
 
     # 运行每个脚本
